@@ -1,0 +1,28 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      default-filters: 
+      - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Credentials, RETAIN_UNIQUE
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowed-origins: "*"
+            allowed-methods: "*"
+            allowed-headers: "*"
+
+#Register in Eureka Server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:1111/eureka
+    register-with-eureka: false
+      
