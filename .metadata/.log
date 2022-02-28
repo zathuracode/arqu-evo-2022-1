@@ -15082,3 +15082,15 @@ java.lang.UnsupportedOperationException: No language server has registered to ha
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-28 15:39:50.528
 !MESSAGE executing callback sts4.classpath.WhGTzWuQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-28 15:53:28.534
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WhGTzWuQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-28 15:53:28.534
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.WhGTzWuQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-28 15:53:28.535
+!MESSAGE subsribers = {sts4.classpath.WSYAzpIG=Send Classpath Notifications(205)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-28 15:53:28.535
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WhGTzWuQ => OK
